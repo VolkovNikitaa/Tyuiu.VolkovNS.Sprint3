@@ -2,20 +2,15 @@
 {
     private static void Main(string[] args)
     {
-        int a = 6;
-        int b = 4;
-        int c = 8;
-        int d = 7;
-        int i = 1;
-        do
+        string str = "Gfvsvm sdefg cvdffgg vgrtg";
+        int count = 0;
+        foreach (char ch in str)
         {
-            b++;
-            a -= b;
-            c += a;
-            d = (c - a) + i;
-            i++;
+            if (ch == 'g')
+            {
+                count++;
+            }
         }
-        while (i < 4);
-        Console.WriteLine(d);
+        Console.WriteLine(count);
     }
 }
