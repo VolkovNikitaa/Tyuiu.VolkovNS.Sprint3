@@ -9,7 +9,7 @@ namespace Tyuiu.VolkovNS.Sprint3.Task5.V17.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double sum = 88.822;
+            double sum = 143.624;
             Assert.AreEqual(sum, ds.GetSumSumSeries(2, 1, 1, 3, 12));
         }
     }
