@@ -11,7 +11,7 @@ namespace Tyuiu.VolkovNS.Sprint3.Task2.V4.Lib
             {
                     sum *= Math.Pow(startValue / (Math.Pow(Math.Sin(1),-7)),-2);
                     startValue++;
-            } while (startValue < stopValue);
+            } while (startValue <= stopValue);
             return Math.Round(sum, 3);
         }
     }
