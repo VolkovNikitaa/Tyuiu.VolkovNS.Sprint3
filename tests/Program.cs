@@ -2,15 +2,18 @@
 {
     private static void Main(string[] args)
     {
-        string str = "Gfvsvm sdefg cvdffgg vgrtg";
-        int count = 0;
-        foreach (char ch in str)
+        int x;
+        double sp = 1;
+        int i = 0;
+        for (x = -2; x <= 2; x++)
         {
-            if (ch == 'g')
+            if (x == 0)
             {
-                count++;
+                break;
             }
+            sp = sp * (3 * x + 1);
+            i++;
         }
-        Console.WriteLine(count);
+        Console.WriteLine(sp);
     }
 }
